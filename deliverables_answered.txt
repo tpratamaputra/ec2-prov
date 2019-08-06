@@ -1,0 +1,15 @@
+No. 1
+
+The script I made using python3 programming language and adding the boto3 module. The boto3 module enables the user to interact with the aws ec2 instances. In the script I've added rough functions to add the user_key_credentials and aws_instances_creations, enabling the user to add new instances and saving their credentials locally. The script also enables the user to check their lists of public IP address for their AWS instances.
+
+=========================================================================================
+No. 2
+
+In AWS it is through the instances itself (AWS Management Console) to create new instances, creating new instances and migrating the old one. If it is to manage the network traffic, it could me configured via the Elastic Balancer is a load balancing service for AWS platform, as far as I know the services is a paid services, and haven't tried any of its services.
+
+=========================================================================================
+No. 3
+
+1. Add the user through the IAM services AWS, to enable the user to access the AWS console programmatically
+2. The user should then configure their machine for the aws_credentials (user credentials created from the IAM) and aws_config (AWS server region, etc.)
+2. Check if the user is connected through executing "aws ec2 describe-instances commands".
